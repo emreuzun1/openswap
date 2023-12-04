@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import CustomNavbar from "../navbar";
 import { useDispatch } from "react-redux";
 import { connectWallet } from "@/store/auth/authSlice";
-import { roboto } from "@/ui/fonts";
+import { Web3Modal } from "@/pages/context/Web3Modal";
 
 const Layout = ({ children }) => {
   const dispatch = useDispatch();

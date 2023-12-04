@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@web3modal/wagmi": "^3.4.0",
     "axios": "^1.5.1",
     "ethers": "^5.7.1",
     "next": "latest",
     "next-redux-wrapper": "^8.1.0",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "viem": "^1.19.11",
+    "wagmi": "^1.4.7"
   },
   "devDependencies": {
     "@nextui-org/react": "^2.1.13",
