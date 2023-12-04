@@ -9,15 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.5.1",
+    "ethers": "^5.7.1",
+    "next": "latest",
+    "next-redux-wrapper": "^8.1.0",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
+    "@nextui-org/react": "^2.1.13",
+    "@reduxjs/toolkit": "^1.9.6",
+    "alchemy-sdk": "^2.10.1",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
+    "dotenv": "^16.3.1",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "framer-motion": "^10.16.4",
+    "postcss": "latest",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1",
+    "redux-saga": "^1.2.3",
+    "tailwindcss": "latest",
+    "web3": "^4.1.2"
   }
 }
